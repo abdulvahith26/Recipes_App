@@ -6,11 +6,11 @@ const recipeRouter = require('./routes/recipeRoutes');
 app.use(express.json());
 
 // API Routes
-app.use('/api/v1/recipes', recipeRouter);
+app.use('/api/recipes/v1', recipeRouter);
 
 // response frm the server, if client connect to the server 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Recipe API! Use /api/v1/recipes for accessing recipes.');
+    res.json(" use the end point '/api/v1/recipes' to connect the DB " );
 });
 
 module.exports = app;
