@@ -14,8 +14,9 @@ A simple RESTful API for managing recipes, built with **Node.js**, **Express**, 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (Mongoose)
 - **API Testing**: Postman
-  
- [POST MAN Documentation]([https://example.com/api-docs](https://documenter.getpostman.com/view/39602240/2sAYBSistc))  
+## API Documentaions link
+ [POST MAN Documentation] (https://documenter.getpostman.com/view/39602240/2sAYBSistc))  
+ 
 ---
 API Endpoints
 1. Get All Recipes
